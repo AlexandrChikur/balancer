@@ -1,0 +1,9 @@
+version: "3"
+
+
+services:
+  balancer:
+    container_name: load_balancer
+    build: .
+    ports:
+      - "3333:3333"

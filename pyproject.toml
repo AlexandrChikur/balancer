@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "load-balancer"
+version = "1.0.0"
+description = "HTTP Load Balance software using Python"
+authors = ["Alexandr Chikur <alexandr.chikur@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dynaconf = "^3.1.11"
+isort = "^5.10.1"
+black = "^22.10.0"
+autoflake = "^1.7.7"
+flake8 = "^5.0.4"
+mypy = "^0.982"
+typer = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
