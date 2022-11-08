@@ -12,7 +12,7 @@ class Settings:
     The class is a wrapper for dynaconf, which is a library that allows you to load configuration files in a variety of
     formats. The class also validates the configuration file using dynaconf's validators
     Supports configurations according to supported "dynaconf" config types.
-        * See https://www.dynaconf.com/#features
+    See https://www.dynaconf.com/#features
     """
 
     __DYNACONF_VALIDATORS = [  # https://www.dynaconf.com/validation/

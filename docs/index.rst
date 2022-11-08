@@ -6,15 +6,27 @@
 Welcome to Balancer's documentation!
 ====================================
 
+Welcome to Balancer documentation, here you can see at the source code as page in your browser and find an answers for
+your questions.
+
+.. image:: https://readthedocs.org/projects/balancer/badge/?version=latest
+    :target: https://balancer.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+Code overview may be easier if check it on :ref:`modindex`
+
+Contents
+---------------
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   pages/quick-start
 
-
-Indices and tables
+Links
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+* Releases: https://github.com/AlexandrChikur/balancer/releases
