@@ -6,15 +6,21 @@
 Welcome to Balancer's documentation!
 ====================================
 
+Welcome to Balancer documentation, here you can see at the source code as page in your browser and find an answers for
+your questions.
+
+Contents
+---------------
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   pages/quick-start
 
-
-Indices and tables
+Links
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+* Releases: https://github.com/AlexandrChikur/balancer/releases
