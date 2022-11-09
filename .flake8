@@ -1,12 +1,8 @@
 [flake8]
 ignore =
-    E501,
-    W605,
-
-
+    E501
 exclude =
     .git,
     .vscode,
     __pycache__,
-    app/db/queries,
-    app/resources/strings.py
+    balancer/conf/banner.py

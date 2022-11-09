@@ -60,7 +60,7 @@ class Worker(multiprocessing.Process):
             self.client_socket.close()
         except Exception as exc:
             logger.exception(exc)
-        logger.info(f"Connections closed successfully")
+        logger.info("Connections closed successfully")
         signal.signal(signal.SIGTERM, signal.SIG_DFL)
 
     def close_connections_and_shutdown(self, *args):
@@ -135,7 +135,7 @@ class Worker(multiprocessing.Process):
             logger.debug(f"Data to receive: {data_rcv}")
         except Exception as exc:
             logger.critical(
-                f"Got unexpected behaviour on: %s:%d. Closing connections and shutting down."
+                "Got unexpected behaviour on: %s:%d. Closing connections and shutting down."
                 % (self.host, self.port)
             )
             logger.exception(exc)
