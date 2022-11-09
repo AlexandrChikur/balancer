@@ -3,5 +3,5 @@
 set -e
 set -x
 
-mypy balancer
-flake8 balancer
+mypy balancer.py balancer
+flake8 balancer.py balancer
