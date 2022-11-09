@@ -6,6 +6,7 @@ _Balancer is application for load balancing written in Python over sockets using
 [![Mypy type checker](https://img.shields.io/badge/%20type_checker-mypy-%231674b1?style=flat)](http://mypy-lang.org/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/AlexandrChikur/balancer/blob/master/LICENSE)
 
+![Styles](https://github.com/AlexandrChikur/balancer/actions/workflows/styles.yaml/badge.svg)
 [![Documentation Status](https://readthedocs.org/projects/balancer/badge/?version=latest)](https://balancer.readthedocs.io/en/latest/?badge=latest)
 
 # Documentation
