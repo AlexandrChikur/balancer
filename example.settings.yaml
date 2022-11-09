@@ -3,7 +3,7 @@ balancer:
   targets: # List of targets between those load will be distributed.
     target_1: # Target name. Doesn't really matter. It can be used for debugging convenience, for example
       host: localhost # Target host
-      port: 4001      # Target host
+      port: 4001      # Target port
 #    target_2:
 #      host: target_2
 #      port: 4002

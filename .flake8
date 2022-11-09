@@ -1,0 +1,8 @@
+[flake8]
+ignore =
+    E501
+exclude =
+    .git,
+    .vscode,
+    __pycache__,
+    balancer/conf/banner.py
