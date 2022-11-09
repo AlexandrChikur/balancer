@@ -125,12 +125,12 @@ class Worker(multiprocessing.Process):
                 if self.worker_socket in write:
                     while data_rcv:
                         self.worker_socket.send(data_rcv[: self.buffer_size])
-                        data_rcv = data_rcv[self.buffer_size :]
+                        data_rcv = data_rcv[self.buffer_size:]  # fmt: skip
 
                 if self.client_socket in write:
                     while data_snd:
                         self.client_socket.send(data_snd[: self.buffer_size])
-                        data_snd = data_snd[self.buffer_size :]
+                        data_snd = data_snd[self.buffer_size:]  # fmt: skip
             logger.debug(f"Data to send: {data_snd}")
             logger.debug(f"Data to receive: {data_rcv}")
         except Exception as exc:
